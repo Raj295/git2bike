@@ -46,5 +46,5 @@ DATABASES = {
 STRIPE_PUBLIC_KEY = ''
 STRIPE_SECRET_KEY = ''
 
-#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-ACCOUNT_EMAIL_VERIFICATION = 'none' 
+EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'tmp/email')
