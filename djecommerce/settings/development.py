@@ -47,4 +47,4 @@ STRIPE_PUBLIC_KEY = ''
 STRIPE_SECRET_KEY = ''
 #Add 
 ACCOUNT_EMAIL_VERIFICATION = 'none'# in your settings.py
-EMAIL_BACKEND = 'django.core.mail.backends.rajkan@hotmail.co.uk.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.rajkan@hotmail.co.uk.EmailBackend'
