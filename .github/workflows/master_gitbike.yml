@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'gitbike'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6AB767D303C14B4C860594D999A2C922 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9694CE844BBC4054B50FF4C830DACCE5 }}
